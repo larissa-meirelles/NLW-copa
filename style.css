@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #121214;
+    background-image: url('assets/bg.svg');
+    background-position-x: center;
+    background-position-y: 55.9%;
+}
+
+#app {
+    width: fit-content;
+    margin: 52px auto;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+div {
+    margin-bottom: 32px;
+}
+.card {
+    text-align: center;
+    background-color: #1D1C19;
+    border-bottom: 2px solid #F7DD43;
+    border-radius: 6px;
+    padding: 32px 23px;
+    
+}
+
+.card h2 {
+    color: #F7DD43;
+    font-size: 24px;
+    font-weight: bold;
+
+    width: fit-content;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 8px 16px;
+    border: 1px solid #746615;
+    border-radius: 8px;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+.card h2 span {
+    color: #E1E1E6;
+    font-size: 14px;
+}
+
+.card ul {
+    width: 270px;
+}
+
+.card ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 24px;
+
+}
+
+.card ul li + li {
+    padding-top: 24px;
+    border-top: 1px solid #323238;
+}
+
+.card ul li strong {
+    color: #E1E1E6;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 125%;
+}
